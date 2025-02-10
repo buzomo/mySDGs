@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.sdgs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  max-width: 600px;
+}
+
+.goal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* 各目標のカラーリング */
+.g1 {
+  background-color: #e5243b;
+}
+.g2 {
+  background-color: #dda63a;
+}
+.g3 {
+  background-color: #4c9f38;
+}
+.g4 {
+  background-color: #c5192d;
+}
+.g5 {
+  background-color: #ff3a21;
+}
+.g6 {
+  background-color: #26bde2;
+}
+.g7 {
+  background-color: #fcc30b;
+}
+.g8 {
+  background-color: #a21942;
+}
+.g9 {
+  background-color: #fd6925;
+}
+.g10 {
+  background-color: #dd1367;
+}
+.g11 {
+  background-color: #fd9d24;
+}
+.g12 {
+  background-color: #bf8b2e;
+}
+.g13 {
+  background-color: #3f7e44;
+}
+.g14 {
+  background-color: #0a97d9;
+}
+.g15 {
+  background-color: #56c02b;
+}
+.g16 {
+  background-color: #00689d;
+}
+.g17 {
+  background-color: #19486a;
+}
